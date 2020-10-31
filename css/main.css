@@ -989,3 +989,47 @@ body {
     flex-grow: 0;
     margin: 10px 0p
 }
+
+.your_bag{
+    position: absolute;
+width: 235px;
+height: 46px;
+left: 200px;
+top: 270px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+color: #000000;
+}
+
+.details{
+    position: absolute;
+width: 155px;
+height: 145px;
+left: 426px;
+top: 347px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.imageIn {
+
+position: absolute;
+width: 275px;
+height: 383px;
+left: 70px;
+top: 347px;
+
+background: #C4C4C4;
+border-radius: 20px;
+}
