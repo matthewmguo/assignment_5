@@ -52,22 +52,11 @@ function addToBag() {
     window.location.href = "shopping_cart.html"
 }
 
+//carousel on the bottom of the page 
 let currentIndex = 0 
 function shiftLeft() {
-    // let current = document.getElementById("carousel").style.marginLeft 
-    // console.log(current)
-    // if (current.length == 0){
-    //     current = -660
-    // }else{
-    //     current = current.substring(0, current.length-2)
-    //     console.log(current)
-    //     current = Number(current)
-    //     current -= 640
-    //     console.log(current)
-    // }
     let current = document.getElementsByClassName("carouselItem")[currentIndex]
     document.getElementById("carousel").style.marginLeft = current + "px"
-    // console.log(current)
     currentIndex += 1
     currentIndex = currentIndex%document.getElementsByClassName("carouselItem").length
     let next = document.getElementsByClassName("carouselItem")[currentIndex]
