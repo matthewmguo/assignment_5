@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Ramaraja:400|Helvetica:400,700");
+
+.nav_bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icons{
+    /* position: absolute; */
+    display: flex;
+    align-items: right;
+    padding-right: 20px;
+    justify-content: space-between;
+    width: 10%;
+    align-self: center;
+}
+
+.muddy_paws{
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    
+    color: #000000;
+    padding-left: 20px;
+}
+
+.secondary{
+    display: flex;
+    align-self: center;
+}
+
+.text_secondary{
+    margin: 10px;
+}
